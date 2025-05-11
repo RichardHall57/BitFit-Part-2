@@ -1,5 +1,6 @@
 package com.example.part5bitfit
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,6 +18,7 @@ class WaterEntryAdapter(private var entries: List<WaterEntry>) : RecyclerView.Ad
         return ViewHolder(view)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val entry = entries[position]
         holder.dateText.text = entry.date
@@ -25,6 +27,7 @@ class WaterEntryAdapter(private var entries: List<WaterEntry>) : RecyclerView.Ad
 
     override fun getItemCount(): Int = entries.size
 
+    @SuppressLint("NotifyDataSetChanged")
     fun updateData(newEntries: List<WaterEntry>) {
         entries = newEntries
         notifyDataSetChanged()

@@ -7,9 +7,12 @@ import androidx.room.Query
 
 @Dao
 interface WaterEntryDao {
-    @Query("SELECT * FROM water_entries ORDER BY id DESC")
-    fun getAll(): LiveData<List<WaterEntry>>
 
+    // Insert a water entry
     @Insert
-    fun insert(entry: WaterEntry)
+    suspend fun insert(entry: WaterEntry)
+
+    // Get all water entries
+    @Query("SELECT * FROM water_entries")
+    fun getAll(): LiveData<List<WaterEntry>>
 }
