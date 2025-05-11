@@ -27,9 +27,11 @@ The following **optional** features are implemented:
 
 ## Video
 Here's a walkthrough of implemented features:
-[
-[![Kapture 2025-02-25 at 23 39 05](https://github.com/user-attachments/assets/2e542977-c70d-4af0-9123-99e644da8fa6)](https://github.com/user-attachments/assets/02c694ef-3939-4d33-b930-90c0797a8909)
-]([https://github.com/user-attachments/assets/548800ac-36ff-44d2-a22e-f80c93f30229](https://github.com/user-attachments/assets/9617fc34-6018-4577-bcf3-df06b1de2ec9))
+
+
+https://github.com/user-attachments/assets/f1ba87dc-a85a-4551-82fa-e572ae89f4c6
+
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [(https://getkap.co/)] for Windows
 
