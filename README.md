@@ -1,11 +1,11 @@
-# Android BitFit-Part-1
+# Android BitFit-Part-2
  - *Name of App Here*
 
 Submitted by: **Richard Hall**
 
 **Name of your app** is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
 
-Time spent: **3** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -15,6 +15,10 @@ The following **required** functionality is completed:
 * [ ] Define your data to save using Room entities
 * [ ] Create your own functions to interact with your database using Room DAOs
 * [ ] Update a RecyclerView with data from a database
+* [ ] Create new Fragments
+* [ ] Break up last unit's UI into multiple Fragments
+* [ ] Handle navigation between Fragments
+* [ ] Use Android Navigation UI like BottomNavigation, Drawer Layout, Top Bar
 
 The following **optional** features are implemented:
 
@@ -22,15 +26,10 @@ The following **optional** features are implemented:
 * [ ] View elements are styled in the .xml files
 
 ## Video
-
-https://github.com/user-attachments/assets/9617fc34-6018-4577-bcf3-df06b1de2ec9
-
-
-
 Here's a walkthrough of implemented features:
 [
 [![Kapture 2025-02-25 at 23 39 05](https://github.com/user-attachments/assets/2e542977-c70d-4af0-9123-99e644da8fa6)](https://github.com/user-attachments/assets/02c694ef-3939-4d33-b930-90c0797a8909)
-](https://github.com/user-attachments/assets/548800ac-36ff-44d2-a22e-f80c93f30229)
+]([https://github.com/user-attachments/assets/548800ac-36ff-44d2-a22e-f80c93f30229](https://github.com/user-attachments/assets/9617fc34-6018-4577-bcf3-df06b1de2ec9))
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [(https://getkap.co/)] for Windows
 
